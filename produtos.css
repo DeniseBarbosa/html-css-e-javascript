@@ -1,0 +1,16 @@
+header{
+    background: #bbbb;
+}
+/*aqui esta editando o posicionamento da lista*/
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+/*aqui esta editando as propriedades do texto*/
+nav a{
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
