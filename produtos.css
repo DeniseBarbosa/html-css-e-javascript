@@ -1,5 +1,19 @@
+
 header{
     background: #bbbb;
+    padding: 20px 0;
+}
+/*aqui esta dando uma largura fixa padrão*/
+.caixa{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+/*editando o deslocamento da lista*/
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0;
 }
 /*aqui esta editando o posicionamento da lista*/
 nav li{
