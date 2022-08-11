@@ -27,6 +27,13 @@ nav a{
     font-weight: bold;
     font-size: 22px;
     text-decoration: none;
+
+}
+/*quando o mouser esta por cima do elemento
+menu lista */
+nav a:hover{
+    color: palevioletred;
+    text-decoration: underline;
 }
 /*centralizando o conteúdo lista*/
 /*aumentar o espaçamento interno*/
@@ -47,6 +54,22 @@ nav a{
     margin:  0 1.5%;
     padding: 30px 20px;
     box-sizing: border-box;
+    border-color: #000000 ;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+.produtos li:hover{
+    border-color:  palevioletred;
+    
+}
+
+.produtos li:active{
+    border-color: aqua;
+}
+.produtos li:hover h2{
+ font-size: 34px;
 }
 /*editando o titulo*/
 .produtos h2{
