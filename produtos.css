@@ -28,3 +28,36 @@ nav a{
     font-size: 22px;
     text-decoration: none;
 }
+/*centralizando o conteúdo lista*/
+/*aumentar o espaçamento interno*/
+.produtos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+/*posicionando a lista um ao lado do outro*/
+/*centralizando os intens conteúdo alinhado ao centro*/
+/*colocando o conteudo obrigatoriamente igual*/
+.produtos li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+}
+/*editando o titulo*/
+.produtos h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/*ed descrição*/
+.produto-descricao{
+    font-size: 18px;
+}
+
+/*editando o preço*/
+.produto-preco{
+    font-size: 22px;
+    font-weight: bold;
+}
+
