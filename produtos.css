@@ -38,11 +38,15 @@ nav a{
 /*posicionando a lista um ao lado do outro*/
 /*centralizando os intens conteúdo alinhado ao centro*/
 /*colocando o conteudo obrigatoriamente igual*/
+/*espaçamento entre os itens*/
 .produtos li{
     display: inline-block;
     text-align: center;
     width: 30%;
     vertical-align: top;
+    margin:  0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
 }
 /*editando o titulo*/
 .produtos h2{
@@ -59,5 +63,6 @@ nav a{
 .produto-preco{
     font-size: 22px;
     font-weight: bold;
+    margin-top: 10px;
 }
 
